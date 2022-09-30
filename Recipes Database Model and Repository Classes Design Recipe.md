@@ -55,7 +55,7 @@ INSERT INTO recipes (name, cooking_time_mins, rating) VALUES ('Steak', 15, 4);
 Run this SQL file on the database to truncate (empty) the table, and insert the seed data. Be mindful of the fact any existing records in the table will be deleted.
 
 ```bash
-psql -h 127.0.0.1 recipes_directory < seeds_recipes.sql
+psql -h 127.0.0.1 recipes_directory < spec/seeds_recipes.sql
 ```
 
 ## 3. Define the class names
